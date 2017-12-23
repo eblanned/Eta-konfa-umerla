@@ -39,5 +39,16 @@ client.on("message", (message) => {
   }
 });
 
+client.on("message", (message) => {
+  if (message.author.id == "253619022447247360")
+  {
+	  //226361644584927232
+	  //253619022447247360
+      message.channel.send("https://i.imgur.com/m2rzHhH.png");
+  }
+});
+
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
+//client.login("MzkzMTQxMzYyMTYzMzE4Nzk1.DRxc8A.S55fnifVLUs0iN5a9_Fp6EZWBo4");
